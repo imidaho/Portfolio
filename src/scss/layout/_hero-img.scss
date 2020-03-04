@@ -1,0 +1,16 @@
+.hero-img{
+    background-size: cover;
+    background-color:  $color1;
+    background-image: url("../../img/JMC-Chow\ Lan\ Lake.jpg");
+    background-position: right 0% bottom 26%;
+    height: 70vh; 
+    background-repeat: no-repeat;
+}
+.intro{
+    color: $color3;
+    float: left;
+    margin: 10% 30% 10% 10%;
+    font-size: x-large;
+    -webkit-text-stroke: 1px ;
+    -webkit-text-stroke-color: $color1;
+}
