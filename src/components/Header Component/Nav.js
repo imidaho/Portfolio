@@ -19,8 +19,8 @@ const NavBar = () => {
                 <a className="nav-item" href="#">About</a>
                 <a className="nav-item" href="#">Front End Development</a>
                 <a className="nav-item" href="#">Python/SQL</a>
+                <a className="nav-item" href="#">React.js</a>
                 <a className="nav-item" href="#">UX</a>
-                <a className="nav-item" href="#">Beekeeping</a>
                 <a className="nav-item" href="#">Collector of Hobbies</a>
                 <a className="nav-item" href="#">Contact</a>
             </nav>
