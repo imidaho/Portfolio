@@ -16,11 +16,12 @@ const NavBar = () => {
                 <span className="button button-toggle"></span>
             </label>
             <nav className="nav">
+
                 <a className="nav-item" href="#">About</a>
                 <a className="nav-item" href="#">Front End Development</a>
                 <a className="nav-item" href="#">Python/SQL</a>
                 <a className="nav-item" href="#">React.js</a>
-                <a className="nav-item" href="#">UX</a>
+                <Link className="nav-item" to="/Ux"><span>UX</span></Link>
                 <a className="nav-item" href="#">Collector of Hobbies</a>
                 <a className="nav-item" href="#">Contact</a>
             </nav>
