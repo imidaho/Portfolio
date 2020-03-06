@@ -17,13 +17,14 @@ const NavBar = () => {
             </label>
             <nav className="nav">
 
+                <Link className="nav-item" to="/"><span>Home</span></Link>
                 <a className="nav-item" href="#">About</a>
-                <a className="nav-item" href="#">Front End Development</a>
-                <a className="nav-item" href="#">Python/SQL</a>
-                <a className="nav-item" href="#">React.js</a>
+                <Link className="nav-item" to="/FEWD"><span>Front End Development</span></Link>
+                <Link className="nav-item" to="/Python-SQL"><span>Python/SQL</span></Link>
+                <Link className="nav-item" to="/React-JS"><span>React.js</span></Link>
                 <Link className="nav-item" to="/Ux"><span>UX</span></Link>
-                <a className="nav-item" href="#">Collector of Hobbies</a>
-                <a className="nav-item" href="#">Contact</a>
+                <Link className="nav-item" to="/Collector-of-Hobbies"><span>Collector of Hobbies</span></Link>
+                <Link className="nav-item" to="/Contact"><span>Contact</span></Link>
             </nav>
         </div>
     );

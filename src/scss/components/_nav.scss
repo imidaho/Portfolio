@@ -174,17 +174,20 @@ $transition-delay: 0.05s;
 
   // Adjusting width for the first line
   &:nth-child(1) {
-    letter-spacing: -4px;
+    letter-spacing: -3px;
   }
 
   // Adjusting width for the second line
   &:nth-child(2) {
-    letter-spacing: -7.45px;
+    letter-spacing: -3.25px;
+  }
+  &:nth-child(3) {
+    letter-spacing: -7.25px;
   }
 
   // Adjusting from the fourth element onwards
   &:nth-child(n + 4) {
-    letter-spacing: -7px;
+    letter-spacing: -5px;
     margin-top: -7px;
     opacity: 0;
   }
