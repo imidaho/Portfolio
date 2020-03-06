@@ -2,9 +2,36 @@
     background-color: $color3;
     text-align: left;
     margin: auto;
-    padding: 5% 20% ;
-}
+    padding: 5% 10% ;
+};
 
-.article h1, h2, h3, h4, h5, h6, ul, li, p {
+.article h1, h2, h3, h4, h5, h6, p, ul, li {
     color: $color1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    
+};
+.section{
+    flex-wrap: wrap; 
+    margin: 10px 10px;
+    // border: solid 1px black;
+    clear: both;
+
+};
+.section ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-position: outside;
+    margin-left: 20px;
+    align-content: flex-start;
+    width: 40%;
+    height: 60%;
 }
+img{
+    width: 40%;
+    float: right;
+    margin-right:10%;
+    margin-top: 10px;
+};

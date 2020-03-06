@@ -8,13 +8,9 @@
 }
 
 ul {
-    list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    height: 10vh;
+    
 }
 body{
     background-color: $color1;
