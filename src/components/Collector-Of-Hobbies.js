@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const CollectorOfHobbies = () => {
     return (
-        <div >
-            <h1>COMING SOON!</h1>
+        <div className="article">
+            <h1>I'll be sharing my collection of hobbies very shortly!</h1>
         </div>
     );
 }

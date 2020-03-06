@@ -18,7 +18,7 @@ const NavBar = () => {
             <nav className="nav">
 
                 <Link className="nav-item" to="/"><span>Home</span></Link>
-                <a className="nav-item" href="#">About</a>
+                <Link className="nav-item" to="/About"><span>About</span></Link>
                 <Link className="nav-item" to="/FEWD"><span>Front End Development</span></Link>
                 <Link className="nav-item" to="/Python-SQL"><span>Python/SQL</span></Link>
                 <Link className="nav-item" to="/React-JS"><span>React.js</span></Link>

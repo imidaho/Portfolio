@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const PythonSQL = () => {
     return (
-        <div >
-            <h1>COMING SOON!</h1>
+        <div className='article'>
+            <h1>My Python/SQL portfolio page is COMING SOON!</h1>
         </div>
     );
 }

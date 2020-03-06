@@ -9,6 +9,7 @@ import PythonSQL from './components/Python_SQL'
 import ReactJs from './components/ReactJs'
 import CollectorOfHobbies from './components/Collector-Of-Hobbies'
 import Contact from './components/Contact'
+import About from './components/About';
 
 
 function App() {
@@ -18,12 +19,13 @@ function App() {
         <div>
           <Header />
           <Route exact path="/" component={Home} />
+          <Route path="/About" component={About} />
           <Route path="/Ux" component={Ux} />
           <Route path="/FEWD" component={FrontEndDevelopment} />
           <Route path="/Python-SQL" component={PythonSQL} />
           <Route path="/React-JS" component={ReactJs} />
           <Route path="/Collector-of-Hobbies" component={CollectorOfHobbies} />
-          <Route path="/Contact" component={CollectorOfHobbies} />
+          <Route path="/Contact" component={Contact} />
 
 
         </div>
