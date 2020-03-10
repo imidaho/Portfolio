@@ -17,6 +17,7 @@
     flex-direction: row;
     margin: 10px 10px;
     clear: both;
+    justify-content: space-evenly;
 
 };
 .section .text {
@@ -28,7 +29,7 @@
 }
 .section ul{
     // flex:  ;
-    flex-wrap: wrap;
+     flex-direction: column;
     list-style-position: outside;
     margin-left: 20px;
     align-content: flex-start;

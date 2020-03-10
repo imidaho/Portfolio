@@ -8,17 +8,20 @@ import pinIconStyling from '../img/ux/pin icon styling.jpg'
 import selectedMarket from '../img/ux/selected market.jpg'
 import tableExample from '../img/ux/Table Example.jpg'
 import fmspCountyMap from '../img/ux/FMSP Counties 2019.jpg'
+import wordpressEmbed from '../img/ux/Wordpress block editor.jpg'
 
 const UX = () => {
     return (
         <div className="article">
             <h1>FMSP Map</h1>
-            <h2>The Problem</h2>
+
 
             <div className="section">
+
                 <div className="text">
+                    <h2>The Problem</h2>
+                    <p>Community Farm Alliance and the Farmers Market Support Program needed an easy way to provide customers with an outlet to find markets using Kentucky Double Dollars.&nbsp; It needed to be organized in such a way that:</p>
                     <ul>
-                        <p>Community Farm Alliance and the Farmers Market Support Program needed an easy way to provide customers with an outlet to find markets using Kentucky Double Dollars.&nbsp; It needed to be organized in such a way that:</p>
                         <li>It is easy to navigate</li>
                         <li>It is easy to filter out by day</li>
                         <li>Allowed for multiple market locations operating under the same name</li>
@@ -35,9 +38,9 @@ const UX = () => {
                 <div className="text">
                     <h2>The Solution:</h2>
                     <p>Google&rsquo;s MyMaps offers significant value, with a few shortcomings.&nbsp;</p>
-                    <ul>
-                        <h4>Why it solves this need:</h4>
 
+                    <h4>Why it solves this need:</h4>
+                    <ul>
                         <li>It can be embedded into CFA&rsquo;s WordPress powered site using iframes</li>
                         <li>It allows for layering, which is a helpful tool to build out different contexts that customers may be seeking</li>
                         <li>It&rsquo;s easily shareable with other teammates</li>
@@ -45,9 +48,8 @@ const UX = () => {
                         <li>It offers styling options that can enhance user experience</li>
                         <li>It&rsquo;s free!</li>
                     </ul>
-
+                    <h4>Where it could be better</h4>
                     <ul>
-                        <h4>Where it could be better</h4>
                         <li>There&rsquo;s no way for a user to set a radius around their preferred location</li>
                         <li>It&rsquo;s not perfectly obvious how to navigate the menu</li>
                         <li>There&rsquo;s no way to create a layer that is a filtered view of locations between multiple layers without created a negative point of UX.</li>
@@ -145,17 +147,20 @@ const UX = () => {
                         <li>Iframe was resized using the html editor inside WordPress to create a larger window.&nbsp; However it still suffers from sizing constraints by the gutters of the WordPress template CFA uses.&nbsp;</li>
                     </ul>
                 </div>
+                <div className="section-pic">
+                    <img src={wordpressEmbed}></img>
+                </div>
             </div>
             <div className="section">
 
                 <div className="text">
                     <h3>Solving for 2020</h3>
-                    <ul>
-                        <h5>Jot form </h5>
-                        <p>We migrated our application process to Jot Form, which allows for greater conditional logic.&nbsp; This enabled us to create an application that better fit each individual market&rsquo;s required inputs, without populating an application with questions/data fields that are only needed for some markets</p>
-                        <h5>Data solutions integrated into application</h5>
-                        <p>Jot form allowed for greater data input variability, so that the FMSP team could retrieve the data in more precise structures.&nbsp; This will save time for the next iteration of the 2020 FMSP Map.</p>
-                    </ul>
+
+                    <h5>Jot form </h5>
+                    <p>We migrated our application process to Jot Form, which allows for greater conditional logic.&nbsp; This enabled us to create an application that better fit each individual market&rsquo;s required inputs, without populating an application with questions/data fields that are only needed for some markets</p>
+                    <h5>Data solutions integrated into application</h5>
+                    <p>Jot form allowed for greater data input variability, so that the FMSP team could retrieve the data in more precise structures.&nbsp; This will save time for the next iteration of the 2020 FMSP Map.</p>
+
                 </div>
                 <div className="section-pic">
                     <img src={jotFormConditionalLogic}></img>
