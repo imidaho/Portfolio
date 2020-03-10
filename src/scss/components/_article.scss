@@ -4,7 +4,6 @@
     margin: auto;
     padding: 5% 10% ;
 };
-
 .article h1, h2, h3, h4, h5, h6, p, ul, li {
     color: $color1;
     display: flex;
@@ -13,25 +12,31 @@
     
 };
 .section{
+    display: flex;
     flex-wrap: wrap; 
+    flex-direction: row;
     margin: 10px 10px;
-    // border: solid 1px black;
     clear: both;
 
 };
+.section .text {
+    width: 40%;
+};
+.section .section-pic {
+    width: 40%
+    
+}
 .section ul{
-    display: flex;
-    flex-direction: column;
+    // flex:  ;
     flex-wrap: wrap;
     list-style-position: outside;
     margin-left: 20px;
     align-content: flex-start;
-    width: 40%;
-    height: 60%;
+    //height: 60%;
+    // border: solid 1px black;
 }
 img{
-    width: 40%;
-    float: right;
-    margin-right:10%;
-    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    margin: 5% ;
 };

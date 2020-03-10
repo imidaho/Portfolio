@@ -16,18 +16,22 @@ const UX = () => {
             <h2>The Problem</h2>
 
             <div className="section">
-                <img src={fmspCountyMap}></img>
-                <ul>
-                    <p>Community Farm Alliance and the Farmers Market Support Program needed an easy way to provide customers with an outlet to find markets using Kentucky Double Dollars.&nbsp; It needed to be organized in such a way that:</p>
-                    <li>It is easy to navigate</li>
-                    <li>It is easy to filter out by day</li>
-                    <li>Allowed for multiple market locations operating under the same name</li>
-                    <li>Free of cost for CFA to build and share</li>
-                    <li>Can be embedded into CFA&rsquo;s website to receive potential customers activated by facebook ads.</li>
-                </ul>
-            </div>
+                <div className="text">
+                    <ul>
+                        <p>Community Farm Alliance and the Farmers Market Support Program needed an easy way to provide customers with an outlet to find markets using Kentucky Double Dollars.&nbsp; It needed to be organized in such a way that:</p>
+                        <li>It is easy to navigate</li>
+                        <li>It is easy to filter out by day</li>
+                        <li>Allowed for multiple market locations operating under the same name</li>
+                        <li>Free of cost for CFA to build and share</li>
+                        <li>Can be embedded into CFA&rsquo;s website to receive potential customers activated by facebook ads.</li>
+                    </ul>
+                </div>
+                <div className="section-pic">
+                    <img src={fmspCountyMap}></img>
+                </div>
+            </div >
             <div className="section">
-                <img src={CFA_page_fmsp_map}></img>
+
                 <div className="text">
                     <h2>The Solution:</h2>
                     <p>Google&rsquo;s MyMaps offers significant value, with a few shortcomings.&nbsp;</p>
@@ -49,12 +53,16 @@ const UX = () => {
                         <li>There&rsquo;s no way to create a layer that is a filtered view of locations between multiple layers without created a negative point of UX.</li>
                     </ul>
                 </div>
+                <div className="section-pic">
+                    <img src={CFA_page_fmsp_map}></img>
+                </div>
 
 
             </div>
 
             <div className="section">
-                <img src={tableExample}></img>
+
+
                 <div className="text">
                     <h2>Execution</h2>
                     <h3>2019 Application Data Table</h3>
@@ -80,58 +88,78 @@ const UX = () => {
                         <li>Website</li>
                     </ul>
                 </div>
-            </div>
-            <div className="section">
-                <img src={selectedMarket}></img>
-                <h5>Challenges</h5>
-                <ul>
-                    <p>Data inputs in application were not tightly structured</p>
-                    <p>Variability in data created issues with location data</p>
-                    <p>And structurers for &lsquo;hours&rsquo; column</p>
-                    <p>Market listings included market hours that repeated at different rates (ex. Every other week, every second Tuesday)</p>
-                    <p>Markets operating under the same name on multiple days of the week, and/or at multiple locations (ex. Lexington Farmers Markets)</p>
-                </ul>
-                <ul>
-                    <h5>Solution</h5>
-                    <p>Normalization of opening and closing times</p>
-                    <p>All markets operating on multiple days of the week were given a [&lsquo;dayoftheweek&rsquo;] tag in the Market Name column (ex. &lsquo;Lexington FM [Tues]&rsquo;, or &lsquo;Estill County FM [2nd Tues of Month&rsquo;)</p>
-                </ul>
-            </div>
-            <div className="section">
-                <img src={pinIconStyling}></img>
-                <h3>Visualization</h3>
-                <ul>
-                    <h5>Challenges</h5>
-                    <p>Markets operating in the same location multiple days of the week did not show multiple pins in that location, as one was layered over the other.&nbsp;</p>
-                    <p>There isn&rsquo;t an adequate pin icon for &lsquo;farmers market&rsquo;</p>
-                    <h5>Solution</h5>
-                    <p>Default pin styling was the same between every layer added.&nbsp; Each pin had to be restyled individually, one click at a time.&nbsp;</p>
-                    <p>Each day of the week was assigned a color, and all market pins in that table were restyled to that color.</p>
-                </ul>
+                <div className="section-pic">
+                    <img src={tableExample}></img>
+                </div>
             </div>
             <div className="section">
 
-                <h3>Embedding into website</h3>
-                <ul>
+                <div className="text">
                     <h5>Challenges</h5>
-                    <li>Menu accessing the layers feature was not adequately &lsquo;obvious&rsquo; to users.</li>
-                    <li>Default iframe sizing was small, and could potentially drive people away from our site to view the larger format</li>
-                </ul>
-                <ul>
-                    <h5>Solution</h5>
-                    <li>Instructions provided to explain how to use the map just above the iframe, as well as in the description of the map</li>
-                    <li>Iframe was resized using the html editor inside WordPress to create a larger window.&nbsp; However it still suffers from sizing constraints by the gutters of the WordPress template CFA uses.&nbsp;</li>
-                </ul>
+                    <ul>
+                        <p>Data inputs in application were not tightly structured</p>
+                        <p>Variability in data created issues with location data</p>
+                        <p>And structurers for &lsquo;hours&rsquo; column</p>
+                        <p>Market listings included market hours that repeated at different rates (ex. Every other week, every second Tuesday)</p>
+                        <p>Markets operating under the same name on multiple days of the week, and/or at multiple locations (ex. Lexington Farmers Markets)</p>
+                    </ul>
+                    <ul>
+                        <h5>Solution</h5>
+                        <p>Normalization of opening and closing times</p>
+                        <p>All markets operating on multiple days of the week were given a [&lsquo;dayoftheweek&rsquo;] tag in the Market Name column (ex. &lsquo;Lexington FM [Tues]&rsquo;, or &lsquo;Estill County FM [2nd Tues of Month&rsquo;)</p>
+                    </ul>
+                </div>
+                <div className="section-pic">
+                    <img src={selectedMarket}></img>
+                </div>
             </div>
             <div className="section">
-                <img src={jotFormConditionalLogic}></img>
-                <h3>Solving for 2020</h3>
-                <ul>
-                    <h5>Jot form </h5>
-                    <p>We migrated our application process to Jot Form, which allows for greater conditional logic.&nbsp; This enabled us to create an application that better fit each individual market&rsquo;s required inputs, without populating an application with questions/data fields that are only needed for some markets</p>
-                    <h5>Data solutions integrated into application</h5>
-                    <p>Jot form allowed for greater data input variability, so that the FMSP team could retrieve the data in more precise structures.&nbsp; This will save time for the next iteration of the 2020 FMSP Map.</p>
-                </ul>
+
+                <div className="text">
+                    <h3>Visualization</h3>
+                    <ul>
+                        <h5>Challenges</h5>
+                        <p>Markets operating in the same location multiple days of the week did not show multiple pins in that location, as one was layered over the other.&nbsp;</p>
+                        <p>There isn&rsquo;t an adequate pin icon for &lsquo;farmers market&rsquo;</p>
+                        <h5>Solution</h5>
+                        <p>Default pin styling was the same between every layer added.&nbsp; Each pin had to be restyled individually, one click at a time.&nbsp;</p>
+                        <p>Each day of the week was assigned a color, and all market pins in that table were restyled to that color.</p>
+                    </ul>
+                </div>
+                <div className="section-pic">
+                    <img src={pinIconStyling}></img>
+                </div>
+            </div>
+            <div className="section">
+
+                <div className="text">
+                    <h3>Embedding into website</h3>
+                    <ul>
+                        <h5>Challenges</h5>
+                        <li>Menu accessing the layers feature was not adequately &lsquo;obvious&rsquo; to users.</li>
+                        <li>Default iframe sizing was small, and could potentially drive people away from our site to view the larger format</li>
+                    </ul>
+                    <ul>
+                        <h5>Solution</h5>
+                        <li>Instructions provided to explain how to use the map just above the iframe, as well as in the description of the map</li>
+                        <li>Iframe was resized using the html editor inside WordPress to create a larger window.&nbsp; However it still suffers from sizing constraints by the gutters of the WordPress template CFA uses.&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="section">
+
+                <div className="text">
+                    <h3>Solving for 2020</h3>
+                    <ul>
+                        <h5>Jot form </h5>
+                        <p>We migrated our application process to Jot Form, which allows for greater conditional logic.&nbsp; This enabled us to create an application that better fit each individual market&rsquo;s required inputs, without populating an application with questions/data fields that are only needed for some markets</p>
+                        <h5>Data solutions integrated into application</h5>
+                        <p>Jot form allowed for greater data input variability, so that the FMSP team could retrieve the data in more precise structures.&nbsp; This will save time for the next iteration of the 2020 FMSP Map.</p>
+                    </ul>
+                </div>
+                <div className="section-pic">
+                    <img src={jotFormConditionalLogic}></img>
+                </div>
             </div>
         </div >
     )
