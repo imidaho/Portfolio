@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e583904d.chunk.css",
+    "main.css": "/portfolio/static/css/main.0a6bbccf.chunk.css",
     "main.js": "/portfolio/static/js/main.be15abc8.chunk.js",
     "main.js.map": "/portfolio/static/js/main.be15abc8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d20f85db.js",
@@ -8,9 +8,9 @@
     "static/js/2.e7f7792f.chunk.js": "/portfolio/static/js/2.e7f7792f.chunk.js",
     "static/js/2.e7f7792f.chunk.js.map": "/portfolio/static/js/2.e7f7792f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2a78b9ed05013e78b1dca7e09c3b2430.js": "/portfolio/precache-manifest.2a78b9ed05013e78b1dca7e09c3b2430.js",
+    "precache-manifest.9dbf1a70e032ff09a482f84db661d0e9.js": "/portfolio/precache-manifest.9dbf1a70e032ff09a482f84db661d0e9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e583904d.chunk.css.map": "/portfolio/static/css/main.e583904d.chunk.css.map",
+    "static/css/main.0a6bbccf.chunk.css.map": "/portfolio/static/css/main.0a6bbccf.chunk.css.map",
     "static/js/2.e7f7792f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e7f7792f.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio/static/media/JMC-Chow Lan Lake.4ceed521.jpg",
     "static/media/CFA-page-fmsp-map-with-layers-menu.jpg": "/portfolio/static/media/CFA-page-fmsp-map-with-layers-menu.3fc2ca84.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.d20f85db.js",
     "static/js/2.e7f7792f.chunk.js",
-    "static/css/main.e583904d.chunk.css",
+    "static/css/main.0a6bbccf.chunk.css",
     "static/js/main.be15abc8.chunk.js"
   ]
 }

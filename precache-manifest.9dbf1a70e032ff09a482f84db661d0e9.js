@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6164d22f88107b4e3b6ba64c45d49d39",
+    "revision": "8952b554efd661baaeeb9e4df4a77ced",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f51943ebed03e65d64c0",
-    "url": "/portfolio/static/css/main.e583904d.chunk.css"
+    "revision": "8a54f111b89e3fb8f765",
+    "url": "/portfolio/static/css/main.0a6bbccf.chunk.css"
   },
   {
     "revision": "2f83b054f2cf6547b6f4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.e7f7792f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f51943ebed03e65d64c0",
+    "revision": "8a54f111b89e3fb8f765",
     "url": "/portfolio/static/js/main.be15abc8.chunk.js"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/runtime-main.d20f85db.js"
   },
   {
-    "revision": "fa11c3ca7b2301d6b8da51b04985fb05",
-    "url": "/portfolio/static/media/BrandonGrotesque-Bold.fa11c3ca.otf"
+    "revision": "e47b9567c504ea6942232f76f6ea4673",
+    "url": "/portfolio/static/media/BrandonGrotesque-Bold.e47b9567.woff"
   },
   {
     "revision": "3fc2ca84fac77716f0b9a36b565b5a3c",
