@@ -11,6 +11,7 @@
     margin: 5px;
     
 };
+// contains section text and secton-pic
 .section{
     display: flex;
     flex-wrap: wrap; 
@@ -28,20 +29,19 @@
     
 }
 .section ul{
-    // flex:  ;
+
      flex-direction: column;
     list-style-position: outside;
     margin-left: 20px;
     align-content: flex-start;
-    //height: 60%;
-    // border: solid 1px black;
+    
 }
 img{
     width: 100%;
     height: auto;
     margin: 5% ;
 };
-
+//orients content vertically for smaller screens
 @media (max-width: 850px){
 
     .article {
