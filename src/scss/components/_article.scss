@@ -41,3 +41,17 @@ img{
     height: auto;
     margin: 5% ;
 };
+
+@media (max-width: 850px){
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    };
+    .section .text{
+        width:100%;
+    };
+    .section .section-pic{
+        width:100%;
+    };
+    };
