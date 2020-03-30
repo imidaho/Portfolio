@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70ab673036d14fb99a42d9e546d5efe7",
+    "revision": "b2aab502d2c099548d9ab157cbd29426",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a8c1bb6942ac9b42c7e7",
+    "revision": "e4b3613f1ff6e69aa555",
     "url": "/portfolio/static/css/main.838d4d9d.chunk.css"
   },
   {
-    "revision": "2f83b054f2cf6547b6f4",
-    "url": "/portfolio/static/js/2.e7f7792f.chunk.js"
+    "revision": "402a14a5aae951f29825",
+    "url": "/portfolio/static/js/2.894aa860.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/portfolio/static/js/2.e7f7792f.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.894aa860.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8c1bb6942ac9b42c7e7",
-    "url": "/portfolio/static/js/main.be15abc8.chunk.js"
+    "revision": "e4b3613f1ff6e69aa555",
+    "url": "/portfolio/static/js/main.089caa81.chunk.js"
   },
   {
     "revision": "383229b839ba9a252410",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/CFA-page-fmsp-map.111f6995.jpg"
   },
   {
+    "revision": "19414792dbff59f4addcede22edcecce",
+    "url": "/portfolio/static/media/CFA_Home_Page.19414792.jpg"
+  },
+  {
     "revision": "3557992b385ac2956f35c7c51e43fef8",
     "url": "/portfolio/static/media/FMSP Counties 2019.3557992b.jpg"
   },
   {
     "revision": "4ceed521794730211273871ff9fa01d3",
     "url": "/portfolio/static/media/JMC-Chow Lan Lake.4ceed521.jpg"
+  },
+  {
+    "revision": "8a442364729694d69470c9075257f696",
+    "url": "/portfolio/static/media/React_api_calls.8a442364.jpg"
   },
   {
     "revision": "d64686ba27300bceaf0051649cad5cca",
@@ -62,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2fa91aaec124a2eef0bf0dfc7a16a6a7",
     "url": "/portfolio/static/media/selected market.2fa91aae.jpg"
+  },
+  {
+    "revision": "75d6a25b0a44152632d730f52738fd86",
+    "url": "/portfolio/static/media/this_site.75d6a25b.jpg"
   }
 ]);
