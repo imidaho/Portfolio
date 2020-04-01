@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2aab502d2c099548d9ab157cbd29426",
+    "revision": "e16566553940aa16054ea7f8c84595f2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e4b3613f1ff6e69aa555",
-    "url": "/portfolio/static/css/main.838d4d9d.chunk.css"
+    "revision": "6c8337722f635003e403",
+    "url": "/portfolio/static/css/main.f7390e78.chunk.css"
   },
   {
-    "revision": "402a14a5aae951f29825",
-    "url": "/portfolio/static/js/2.894aa860.chunk.js"
+    "revision": "6213e1d7d6cb7e977aba",
+    "url": "/portfolio/static/js/2.e975407b.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/portfolio/static/js/2.894aa860.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.e975407b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4b3613f1ff6e69aa555",
-    "url": "/portfolio/static/js/main.089caa81.chunk.js"
+    "revision": "6c8337722f635003e403",
+    "url": "/portfolio/static/js/main.45b6b7d3.chunk.js"
   },
   {
     "revision": "383229b839ba9a252410",
@@ -40,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/CFA_Home_Page.19414792.jpg"
   },
   {
+    "revision": "44127cea6a8175dc790c12cac0f24584",
+    "url": "/portfolio/static/media/Conclusion-Precip-History.44127cea.jpg"
+  },
+  {
+    "revision": "4c2e3ef1b02f9746d7092fe094b70981",
+    "url": "/portfolio/static/media/Conclusion-temp-range-graph.4c2e3ef1.jpg"
+  },
+  {
     "revision": "3557992b385ac2956f35c7c51e43fef8",
     "url": "/portfolio/static/media/FMSP Counties 2019.3557992b.jpg"
   },
@@ -56,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Table Example.d64686ba.jpg"
   },
   {
+    "revision": "61a924dde5972140a965e41708acd882",
+    "url": "/portfolio/static/media/WeekendListFunction.61a924dd.jpg"
+  },
+  {
     "revision": "074b4882273fe1080dd4869af5e69a06",
     "url": "/portfolio/static/media/Wordpress block editor.074b4882.jpg"
   },
@@ -66,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7ed7a44bcd752ab335a2aa96a6d452b",
     "url": "/portfolio/static/media/pin icon styling.f7ed7a44.jpg"
+  },
+  {
+    "revision": "3ac5f3da8aac87944eb915a2957b04bd",
+    "url": "/portfolio/static/media/requestLoopPic.3ac5f3da.jpg"
   },
   {
     "revision": "2fa91aaec124a2eef0bf0dfc7a16a6a7",
