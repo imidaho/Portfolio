@@ -8,11 +8,13 @@ import CFAHomePage from '../img/fewd/CFA_Home_Page.jpg'
 const FrontEndDevelopment = () => {
     return (
         <div>
+            <Cl_React />
+            <ThisSite />
             <div className='article'>
                 <h1>CFA Home Page Prototype</h1>
                 <div className='section'>
                     <div className='text'>
-                        <h2>Goal</h2>
+                        <h2>Goal:</h2>
                         <p> Build a scaleable webpage using Html, CSS, and a javascript function </p>
                         <h2>Solution:</h2>
                         <p>Landing page features:</p>
@@ -21,6 +23,7 @@ const FrontEndDevelopment = () => {
                             <li>Completely responsive and scaleable 'hero image'</li>
                             <li>Javascript powered feedback form</li>
                         </ul>
+                        <a target="_blank" rel="noopener noreferrer" href='https://github.com/imidaho/CFAHomepage'>Check Out The Source Code Here</a>
                     </div>
                     <div className='section-pic'>
                         <img src={CFAHomePage}></img>
@@ -43,8 +46,7 @@ const FrontEndDevelopment = () => {
 
                 </div> */}
             </div>
-            <Cl_React />
-            <ThisSite />
+
         </div>
     );
 }

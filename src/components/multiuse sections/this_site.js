@@ -8,10 +8,11 @@ const ThisSite = () => {
 
             <div className='section'>
                 <div className='text'>
-                    <h2>Goal</h2>
+                    <h2>Goal:</h2>
                     <p>Create a single page app showcasing my web development skillset</p>
                     <h2>Solution:</h2>
                     <p>Using create-react-app and github pages, I've built out this site from scratch using the react.js framework and concepts.</p>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/imidaho/portfolio'>Check Out The Source Code</a>
                 </div>
                 <div className='section-pic'>
                     <img src={ThisSitePic}></img>

@@ -4,11 +4,12 @@
     margin: auto;
     padding: 5% 10% ;
 };
-.article h1, h2, h3, h4, h5, h6, p, ul, li {
+.article h1, h2, h3, h4, h5, h6, p, ul, ol {
     color: $color1;
     display: flex;
     flex-wrap: wrap;
     margin: 5px;
+    padding: 4px 0px 8px;
     
 };
 // contains section text and secton-pic
@@ -28,13 +29,16 @@
     width: 40%
     
 }
-.section ul{
+.section ul, ol{
 
-     flex-direction: column;
+    flex-direction: column;
     list-style-position: outside;
     margin-left: 20px;
     align-content: flex-start;
-    
+
+}
+.section li{
+    padding: 2px 0px
 }
 img{
     width: 100%;

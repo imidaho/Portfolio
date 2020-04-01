@@ -6,8 +6,9 @@ import ThisSite from './multiuse sections/this_site';
 const ReactJs = () => {
     return (
         <div>
-            <Cl_React />
             <ThisSite />
+            <Cl_React />
+
 
 
         </div>
