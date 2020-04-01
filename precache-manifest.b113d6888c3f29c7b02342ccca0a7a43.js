@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e16566553940aa16054ea7f8c84595f2",
+    "revision": "97fde5f7eef5287d3f75d6318989562a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "6c8337722f635003e403",
+    "revision": "e9c4fa24f0cdf4539a80",
     "url": "/portfolio/static/css/main.f7390e78.chunk.css"
   },
   {
-    "revision": "6213e1d7d6cb7e977aba",
-    "url": "/portfolio/static/js/2.e975407b.chunk.js"
+    "revision": "90c8c4de4ad236a9755f",
+    "url": "/portfolio/static/js/2.48abb8c4.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/portfolio/static/js/2.e975407b.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.48abb8c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c8337722f635003e403",
-    "url": "/portfolio/static/js/main.45b6b7d3.chunk.js"
+    "revision": "e9c4fa24f0cdf4539a80",
+    "url": "/portfolio/static/js/main.e4e6de0c.chunk.js"
   },
   {
     "revision": "383229b839ba9a252410",
     "url": "/portfolio/static/js/runtime-main.d20f85db.js"
+  },
+  {
+    "revision": "6c3fa2126ee2b9e2be54d7dbcece0823",
+    "url": "/portfolio/static/media/BeekeeperJames.6c3fa212.jpg"
   },
   {
     "revision": "e47b9567c504ea6942232f76f6ea4673",
