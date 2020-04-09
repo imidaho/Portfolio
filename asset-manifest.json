@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f7390e78.chunk.css",
-    "main.js": "/portfolio/static/js/main.e4e6de0c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e4e6de0c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1f65b011.chunk.css",
+    "main.js": "/portfolio/static/js/main.de2d78a8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.de2d78a8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d20f85db.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d20f85db.js.map",
-    "static/js/2.48abb8c4.chunk.js": "/portfolio/static/js/2.48abb8c4.chunk.js",
-    "static/js/2.48abb8c4.chunk.js.map": "/portfolio/static/js/2.48abb8c4.chunk.js.map",
+    "static/js/2.e0215379.chunk.js": "/portfolio/static/js/2.e0215379.chunk.js",
+    "static/js/2.e0215379.chunk.js.map": "/portfolio/static/js/2.e0215379.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b113d6888c3f29c7b02342ccca0a7a43.js": "/portfolio/precache-manifest.b113d6888c3f29c7b02342ccca0a7a43.js",
+    "precache-manifest.ae3f2d8d9a32654fedc4243ba4f7d5e1.js": "/portfolio/precache-manifest.ae3f2d8d9a32654fedc4243ba4f7d5e1.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.f7390e78.chunk.css.map": "/portfolio/static/css/main.f7390e78.chunk.css.map",
-    "static/js/2.48abb8c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.48abb8c4.chunk.js.LICENSE.txt",
+    "static/css/main.1f65b011.chunk.css.map": "/portfolio/static/css/main.1f65b011.chunk.css.map",
+    "static/js/2.e0215379.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e0215379.chunk.js.LICENSE.txt",
     "static/media/BeekeeperJames.jpg": "/portfolio/static/media/BeekeeperJames.6c3fa212.jpg",
     "static/media/App.scss": "/portfolio/static/media/JMC-Chow Lan Lake.4ceed521.jpg",
     "static/media/CFA-page-fmsp-map-with-layers-menu.jpg": "/portfolio/static/media/CFA-page-fmsp-map-with-layers-menu.3fc2ca84.jpg",
@@ -27,13 +27,14 @@
     "static/media/jot-form conditional logic.jpg": "/portfolio/static/media/jot-form conditional logic.a4cf75c6.jpg",
     "static/media/pin icon styling.jpg": "/portfolio/static/media/pin icon styling.f7ed7a44.jpg",
     "static/media/requestLoopPic.jpg": "/portfolio/static/media/requestLoopPic.3ac5f3da.jpg",
+    "static/media/ricePaddyJames.jpg": "/portfolio/static/media/ricePaddyJames.098bd3ad.jpg",
     "static/media/selected market.jpg": "/portfolio/static/media/selected market.2fa91aae.jpg",
     "static/media/this_site.jpg": "/portfolio/static/media/this_site.75d6a25b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d20f85db.js",
-    "static/js/2.48abb8c4.chunk.js",
-    "static/css/main.f7390e78.chunk.css",
-    "static/js/main.e4e6de0c.chunk.js"
+    "static/js/2.e0215379.chunk.js",
+    "static/css/main.1f65b011.chunk.css",
+    "static/js/main.de2d78a8.chunk.js"
   ]
 }
