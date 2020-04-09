@@ -23,7 +23,7 @@ const NavBar = () => {
                 <Link className="nav-item" to="/Python-SQL"><span>Python/SQL</span></Link>
                 <Link className="nav-item" to="/React-JS"><span>React.js</span></Link>
                 <Link className="nav-item" to="/Ux"><span>UX</span></Link>
-                <Link className="nav-item" to="/Collector-of-Hobbies"><span>Collector of Hobbies</span></Link>
+                {/* <Link className="nav-item" to="/Collector-of-Hobbies"><span>Collector of Hobbies</span></Link> */}
                 <Link className="nav-item" to="/Contact"><span>Contact</span></Link>
             </nav>
         </div>
