@@ -6,7 +6,6 @@
 };
 .article h1, h2, h3, h4, h5, h6, p, ul, ol {
     color: $color1;
-    display: flex;
     flex-wrap: wrap;
     margin: 5px;
     padding: 4px 0px 8px;
@@ -39,6 +38,9 @@
 }
 .section li{
     padding: 2px 0px
+}
+.inline-link{
+    display:inline
 }
 img{
     width: 100%;
